@@ -54,15 +54,14 @@ main{
 
 section{
     display: flex;
-    position: static;
+
     
 }
 .card{
     display: inline-block;
     margin: 20px;
-    width: 335px;
+    width: 300px;
     background-color: aliceblue;
-    margin: 20px;
     border-radius: 20px;
     font-family: 'Nunito', sans-serif;
     padding: 10px;
@@ -77,7 +76,8 @@ section{
     font-family: 'Nunito', sans-serif;
     display: block;
     padding: 0 70px;
-    }
+    
+}
 
 button{ 
         background-color: #ad2831;
@@ -105,11 +105,14 @@ footer{
     
     
 }
+.rodape{
+    margin: auto auto;
+}
 .icon{ 
     
-    margin: 100px 100% ;
     width: 141px;
     height: 141px;
+    margin: 0 100px;
 }
 
 @media(max-width: 425px) {
@@ -133,8 +136,9 @@ footer{
     }
     footer{width: 100%;
     height: fit-content;
-flex-direction: column;}
-    .icon{
+    flex-direction: column;}
+    
+.icon{
         display: flex;
         margin: 0 auto;
         flex-direction: column;
