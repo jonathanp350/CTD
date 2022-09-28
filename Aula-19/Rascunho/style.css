@@ -19,16 +19,11 @@
     
 }
 body{
-    /* background-color: black;
-    color: red;*/
-    animation-name: animation-background-body;
-    animation-duration: 5s;
-    /* animation-iteration-count: infinite; */
+    background-color: white;
 } 
 
 @keyframes animation-header{
     0%{
-        top: -100px;
         opacity: 0;
 
     }
@@ -38,13 +33,23 @@ body{
         opacity: 100;
     }
 }
+
+
 header{
     height: 100px;
     background-color: black;
     position: relative;
-    opacity: 0;
+    opacity: 100;
     animation-name: animation-header;
     animation-duration: 5s;
     animation-delay: 1s;
     animation-fill-mode: forwards;
+}
+
+ul{
+    color: white;
+    display: flex;
+    text-decoration: none;
+    margin: 15px;
+        
 }
